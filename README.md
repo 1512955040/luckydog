@@ -25,8 +25,6 @@ $ yarn add luckydog
 
 ```javascript
 const luckydog = require('luckydog')
-const result = luckydog('zce')
-// result => 'zce@zce.me'
 ```
 
 ## API
@@ -46,7 +44,7 @@ const result = luckydog('zce')
 
 - Type: `string`
 - Details: host string
-- Default: `'zce.me'`
+- Default: `'1512955040@qq.com'`
 
 ## Contributing
 
