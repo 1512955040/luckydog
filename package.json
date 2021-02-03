@@ -1,0 +1,39 @@
+{
+  "name": "luckydog",
+  "version": "0.1.0",
+  "description": "workflow",
+  "keywords": [
+    "luckydog",
+    "zce"
+  ],
+  "homepage": "https://github.com/1512955040/luckydog#readme",
+  "bugs": {
+    "url": "https://github.com/1512955040/luckydog/issues"
+  },
+  "license": "MIT",
+  "author": "1512955040 <liu13116464360@163.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1512955040/luckydog.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
